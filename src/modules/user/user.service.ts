@@ -22,6 +22,7 @@ export class UserService {
                 name: dto.name,
                 email: dto.email,
                 password: hashedPassword,
+                phone: dto.phone,
             },
         });
     }
